@@ -23,7 +23,7 @@ secret_new_res = ''
 unusable_symbols = '1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM.!"№;%:?*()_+=@#$%^&\|-'
 
 #Цикл основан на количестве попыток, и пока оно не равно нулю, цикл будет работать
-
+#Так же цикл не воспринимает пустые строки.
 while attemps != 0 and len(letter) != 0:
 
     #Проверяется переменная, вводимая пользователем, на наличее команды
