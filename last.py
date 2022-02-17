@@ -70,6 +70,8 @@ while attemps != 0 and len(letter) != 0:
     if letter in set(secret_new_res):
         print('Вы уже угадали эту букву! Повторяю:')
 
+    #Сердце программы.
+    #Здесь пропечатываются вопросительные знаки и угаданные буквы.
     #Переменная letter проверяется на наличие только одной буквы, наличием ее в слове (регистр не учитывается) и отсутствием ее в переменной а.
     if len(letter) == 1 and (letter in word or (chr(ord(letter) + 32) in word) or (chr(ord(letter) - 32) in word)) and letter[0] not in unusable_symbols:
         for i in word:
