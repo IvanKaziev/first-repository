@@ -65,6 +65,8 @@ while attemps != 0 and len(letter) != 0:
     if letter[0] in unusable_symbols:
         print('Введи РУССКУЮ букву! Пропиши /rules чтобы узнать больше.')
         letter = input('Введи букву: ')
+
+    #Проверка на повторно выведенную букву
     if letter in set(secret_new_res):
         print('Вы уже угадали эту букву! Повторяю:')
 
