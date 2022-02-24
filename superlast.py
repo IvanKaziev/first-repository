@@ -10,9 +10,9 @@ secret_new = ''
 print('Если вдруг тебе понадобится помощь, напиши /help, чтобы узнать, какую помощь я могу тебе предложить')
 print('У вас есть 20 возможностей ввести неправильную букву.')
 print(secret)
-attemps = 20
+attempts = 20
 letter = input('Введи русскую букву: ')
-count_attemps = 0
+count_attempts = 0
 set_letters = set()
 #Переменная word_now используется для команды /show_word_now. Смотри правила.
 word_now = ''
@@ -28,7 +28,7 @@ unusable_symbols = '1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVB
 #Цикл основан на количестве попыток, и пока оно не равно нулю, цикл будет работать
 #Так же цикл не воспринимает пустые строки.
 
-while attemps != 0 and len(letter) != 0:
+while attempts != 0 and len(letter) != 0:
 
     #Проверка на ввод русской буквы. Для этого моя программа проверяет только первый символ строки.
     if letter[0] in unusable_symbols:
@@ -65,12 +65,12 @@ while attemps != 0 and len(letter) != 0:
     
     #Проверяется переменная, вводимая пользователем, на наличее команды
     if letter == '/surrender':
-        attemps = 0
+        attempts = 0
         break
     
     #Переменная letter проверяется на наличие полного слова и длины, большей единицы.
     if letter == word and len(letter) > 1:
-        print('Ага! Подсмотрел код и сразу написал правильный ответ! Я так не играю. Попыток затрачено:', count_attemps)
+        print('Ага! Подсмотрел код и сразу написал правильный ответ! Я так не играю. Попыток затрачено:', count_attempts)
         print('Ответ:', word)
         break
 
@@ -101,14 +101,14 @@ while attemps != 0 and len(letter) != 0:
 
     #Переменная letter проверяется на полное отсутствие ее в слове
     if letter[0] not in unusable_symbols and len(letter) == 1 and letter[0] != '/' and letter not in word and chr(ord(letter) - 32) not in word and chr(ord(letter) + 32) not in word:
-        attemps -= 1
+        attempts -= 1
         print('Ха! не угадал. Буквы', '"' + letter + '"', 'нет в слове')
-        print('Попыток осталось:', attemps)
-        count_attemps += 1
+        print('Попыток осталось:', attempts)
+        count_attempts += 1
 
     #Сравниваются множества букв слова и слова, составленного по ходу цикла для того, чтобы понять, когда завершать действие программы
     if set(word) == set(secret_new):
-        print('Ты угадал! Чтож, ты победил. Удачи, обитатель интернета! Ответ:', word + '.', 'Попыток затрачено:', count_attemps)
+        print('Ты угадал! Чтож, ты победил. Удачи, обитатель интернета! Ответ:', word + '.', 'Попыток затрачено:', count_attempts)
         break
 
     #Переменная letter проверяется на команду, длину большей единицы и отсутствием полного слова в ней.
@@ -126,5 +126,5 @@ if len(letter) == 0:
     print('Предупреждал же! Не вводи пустые строки!')
     
 #Если количество попыток сравнялось с нулем, то программа выведет следующее:
-if attemps == 0:
+if attempts == 0:
     print('Ты проиграл! Ответ:', word + '.', 'Не хочешь сыграть еще раз?')
