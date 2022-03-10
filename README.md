@@ -31,6 +31,7 @@
  - /rules - показывает правила игры
  - /show_word_now - показывает все угаданные на данный момент буквы в строке из звездочек
  - /surrender - позволяет закончить игру и сдаться
+
 *Важно!*
  - В игре нельзя вводить более одной русской буквы, если она не является загаданным словом. В противном случае Вы проиграете автоматически!
  - Программа не воспринимает пустые строки
@@ -67,6 +68,7 @@ If you have lost, then don't worry. You can play again.
  - /rules - shows rules of the game
  - /show_word_now - shows all guessed letters in the line of characters "?"
  - /surrender - you give up and the game ends
+
 *Important!*
  - You can't enter more than one Russian letter unless it's the hidden word. Otherwise, you will lose automatically!
  - The program does not accept empty lines
