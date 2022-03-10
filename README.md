@@ -23,16 +23,16 @@
 В таком случае не расстраивайтесь. Программа предложит сыграть Вам еще раз.
 
 Команды
-- /help - дает информацию о других командах
-- /show_letters - покажет все буквы, которые есть в слове
-- /attempts - показывает оставшееся количество попыток
-- /rules - показывает правила игры
-- /show_word_now - показывает все угаданные на данный момент буквы в строке из звездочек
-- /surrender - позволяет закончить игру и сдаться
+ - /help - дает информацию о других командах
+ - /show_letters - покажет все буквы, которые есть в слове
+ - /attempts - показывает оставшееся количество попыток
+ - /rules - показывает правила игры
+ - /show_word_now - показывает все угаданные на данный момент буквы в строке из звездочек
+ - /surrender - позволяет закончить игру и сдаться
 Важно!
-- В игре нельзя вводить более одной русской буквы, если она не является загаданным словом. В противном случае Вы проиграете автоматически!
-- Программа не воспринимает пустые строки
-- Ввод не чувствителен к регистру
+ - В игре нельзя вводить более одной русской буквы, если она не является загаданным словом. В противном случае Вы проиграете автоматически!
+ - Программа не воспринимает пустые строки
+ - Ввод не чувствителен к регистру
 
 
 English
@@ -40,10 +40,10 @@ This game is called "The field of miracles".
 The program chooses a word from a list and you try to guess it. During the game, the program will sometimes talk to you.
 
 Rules
-- You can only make a mistake 20 times.
-- If you enter a russian letter that isn't present in the hidden word, then the number of attempts decreases
-- You can ask the program to help you by entering /help. This command will give information about other commands that can help you.
-- You can't enter empty lines. Otherwise, the program will react accordingly.
+ - You can only make a mistake 20 times.
+ - If you enter a russian letter that isn't present in the hidden word, then the number of attempts decreases
+ - You can ask the program to help you by entering /help. This command will give information about other commands that can help you.
+ - You can't enter empty lines. Otherwise, the program will react accordingly.
 
 So, you have launched the game. At first you will see some text. After it there will be a line consisting only of characters "?"
 In each place of these characters is a letter, that you have to guess.
@@ -57,13 +57,13 @@ But also you can lose. If you run out of attempts, or you entered more than one 
 If you have lost, then don't worry. You can play again.
 
 Commands
-- /help - gives information about other commands that can help you.
-- /show_letters - shows all the letters that are in the hidden word
-- /attempts - shows the remaining number of attempts
-- /rules - shows rules of the game
-- /show_word_now - shows all guessed letters in the line of characters "?"
-- /surrender - you give up and the game ends
+ - /help - gives information about other commands that can help you.
+ - /show_letters - shows all the letters that are in the hidden word
+ - /attempts - shows the remaining number of attempts
+ - /rules - shows rules of the game
+ - /show_word_now - shows all guessed letters in the line of characters "?"
+ - /surrender - you give up and the game ends
 Important!
-- You can't enter more than one Russian letter unless it's the hidden word. Otherwise, you will lose automatically!
-- The program does not accept empty lines
-- Input isn't sensitive to capitalization
+ - You can't enter more than one Russian letter unless it's the hidden word. Otherwise, you will lose automatically!
+ - The program does not accept empty lines
+ - Input isn't sensitive to capitalization
