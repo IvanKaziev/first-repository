@@ -1,5 +1,6 @@
 # first-repository
-*Русский.*
+*Русский*
+
 Игра называется "Поле чудес". 
 Здесь программа загадывает слово, а Вы пытаетесь его отгадать. Во время игры программа периодически будет говорить Вам о чем-либо.
 
@@ -36,6 +37,7 @@
 
 
 *English*
+
 This game is called "The field of miracles".
 The program chooses a word from a list and you try to guess it. During the game, the program will sometimes talk to you.
 
