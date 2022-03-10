@@ -44,6 +44,7 @@ The program chooses a word from a list and you try to guess it. During the game,
 
 *Rules*
  - You can only make a mistake 20 times.
+ - You can only enter Russian single letter or the whole letter at once.
  - If you enter a russian letter that isn't present in the hidden word, then the number of attempts decreases
  - You can ask the program to help you by entering /help. This command will give information about other commands that can help you.
  - You can't enter empty lines. Otherwise, the program will react accordingly.
