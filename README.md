@@ -1,4 +1,3 @@
-# first-repository
 
 <h1>Русский</h1>
 
