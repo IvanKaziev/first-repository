@@ -5,11 +5,11 @@
 Здесь программа загадывает слово, а Вы пытаетесь его отгадать. Во время игры программа периодически будет говорить Вам о чем-либо.
 
 **Правила**
-- Вы можете допустить ошибку ровно 20 раз.
-- В учет идут либо одиночные русские буквы, либо все слово целиком с заглавной буквы.
-- Если Вы вводите русскую букву, которой нет в загаданном слове, то количество попыток уменьшается.
-- Вы можете попросить помощи у программы, введя /help. Эта команда даст информацию о других командах, которые могут вам помочь.
-- Нельзя вводить пустые строки. Иначе программа выведет соответствующее сообщение.
+1. Вы можете допустить ошибку ровно 20 раз.
+2. В учет идут либо одиночные русские буквы, либо все слово целиком с заглавной буквы.
+3. Если Вы вводите русскую букву, которой нет в загаданном слове, то количество попыток уменьшается.
+4. Вы можете попросить помощи у программы, введя /help. Эта команда даст информацию о других командах, которые могут вам помочь.
+5. Нельзя вводить пустые строки. Иначе программа выведет соответствующее сообщение.
 
 
 Итак, Вы запустили игру. Сначала выводится некий текст, а в конце строка, состоящая только из символов "?".
@@ -45,11 +45,11 @@ This game is called "The field of miracles".
 The program chooses a word from a list and you try to guess it. During the game, the program will sometimes talk to you.
 
 **Rules**
- - You can only make a mistake 20 times.
- - You can only enter Russian single letter or the whole letter at once.
- - If you enter a russian letter that isn't present in the hidden word, then the number of attempts decreases
- - You can ask the program to help you by entering /help. This command will give information about other commands that can help you.
- - You can't enter empty lines. Otherwise, the program will react accordingly.
+ 1. You can only make a mistake 20 times.
+ 2. You can only enter Russian single letter or the whole letter at once.
+ 3. If you enter a russian letter that isn't present in the hidden word, then the number of attempts decreases
+ 4. You can ask the program to help you by entering /help. This command will give information about other commands that can help you.
+ 5. You can't enter empty lines. Otherwise, the program will react accordingly.
 
 So, you have launched the game. At first you will see some text. After it there will be a line consisting only of characters "?"
 In each place of these characters is a letter, that you have to guess.
