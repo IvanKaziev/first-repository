@@ -1,5 +1,5 @@
 
-<h1>Русский</h1>
+<h1>Поле чудес</h1>
 
 Игра называется "Поле чудес". 
 Здесь программа загадывает слово, а Вы пытаетесь его отгадать. Во время игры программа периодически будет говорить Вам о чем-либо.
@@ -39,9 +39,9 @@
  - Ввод не чувствителен к регистру
 
 
-<h1>English</h1>
+<h1>The Wheel of Fortune</h1>
 
-This game is called "The field of miracles".
+This game is called "The Wheel of Fortune".
 The program chooses a word from a list and you try to guess it. During the game, the program will sometimes talk to you.
 
 **Rules**
