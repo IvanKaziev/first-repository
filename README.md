@@ -48,13 +48,13 @@ The program chooses a word from a list and you try to guess it. During the game,
  1. You can only make a mistake 20 times.
  2. Only single Russian letter or the whole word with a capital letter are counted.
  3. If you enter a russian letter that isn't in the hidden word, then the number of attempts decreases
- 4. You can ask the program to help you by entering /help. This command will give information about other commands that can help you.
+ 4. You can ask the program to help you by typing /help. This command will give information about other commands that can help you.
  5. You can't enter empty lines. Otherwise, the program will react accordingly.
 
-So, you have launched the game. At first you will see some text. After it there will be a line consisting only of signs "?"
+So, you have launched the game. At first you will see some text. After it there will be a line consisting only of symbols "?"
 In each place of these characters is a letter, that you have to guess.
 You enter one russian letter at a time.
-If you guessed the letter right, then the message about it and the letters you have already guessed will be displayed in the line with signs "?".
+If you guessed the letter right, then the message about it and the letters you have already guessed will be displayed in the line with symbols "?".
 Otherwise, the program will tell you about your mistake and the number of attempts will be reduced.
 Sometimes it happens that with each new guessed letter, you understand less and less what word the program has chosen.
 For such cases, there is the /help command, which will give information about other commands that can help you.
@@ -67,7 +67,7 @@ If you have lost, then don't worry. You can play again.
  - /show_letters - shows all the letters that are in the hidden word
  - /attempts - shows the remaining number of attempts
  - /rules - shows rules of the game
- - /show_word_now - shows all guessed letters in the line of signs "?"
+ - /show_word_now - shows all guessed letters in the line of symbols "?"
  - /surrender - allows you to finish the game and give up
 
 **Important!**
